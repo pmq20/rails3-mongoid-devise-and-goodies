@@ -1,4 +1,3 @@
-config/setting.yml
 git_sensitive*
 #----------------------------------------------------------------------------
 # Ignore these files when commiting to a git repository
