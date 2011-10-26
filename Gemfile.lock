@@ -241,5 +241,5 @@ DEPENDENCIES
   rb-fsevent
   rspec-rails (>= 2.6.1)
   sass-rails (~> 3.1.4)
-  settingslogic
+  settingslogic (~> 2.0)
   uglifier (>= 1.0.3)

@@ -22,12 +22,12 @@ module Goodies
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => Setting.domain,
+      :domain               => '0.0.0.0',
       :user_name            => 'pmq2001@gmail.com',
       :password             => SENSITIVE_MAILBOX_PASSWORD_HERE,
       :authentication       => 'plain',
       :enable_starttls_auto => true  }
-    config.action_mailer.default_url_options = { :host => Setting.domain }
+    config.action_mailer.default_url_options = { :host => '0.0.0.0' }
     
 
     # don't generate RSpec tests for views and helpers
