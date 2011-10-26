@@ -1,4 +1,4 @@
-# The `Goodies` App-Skeleton
+# The "Goodies" App-Skeleton
 
 Note. This skeleton app is toward Chinese websites, some gems might not be appropriate to English users.
 
