@@ -13,7 +13,7 @@ if HOST_OS =~ /linux/i
 end
 gem "rspec-rails", ">= 2.6.1", :group => [:development, :test]
 gem "database_cleaner", ">= 0.6.7", :group => :test
-gem "mongoid-rspec", ">= 1.4.4", :group => :test
+gem "mongoid-rspec", ">= 1.4.5", :group => :test
 gem "factory_girl_rails", ">= 1.2.0", :group => :test
 gem "cucumber-rails", ">= 1.1.1", :group => :test
 gem "capybara", ">= 1.1.1", :group => :test
@@ -37,7 +37,7 @@ gem "guard-livereload", ">= 0.3.0", :group => :development
 gem "guard-rspec", ">= 0.4.3", :group => :development
 gem "guard-cucumber", ">= 0.6.1", :group => :development
 gem "bson_ext", ">= 1.4.0"
-gem "mongoid", ">= 2.3.0"
+gem "mongoid", ">= 3.0.0"
 gem "devise", ">= 1.4.7"
 gem "frontend-helpers"
 gem "rails-footnotes", ">= 3.7", :group => :development
