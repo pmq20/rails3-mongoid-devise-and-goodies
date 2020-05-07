@@ -1,7 +1,7 @@
 require 'rbconfig'
 HOST_OS = RbConfig::CONFIG['host_os']
 source 'http://rubygems.org'
-gem 'rails', '3.1.1'
+gem 'rails', '4.0.0'
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
@@ -39,7 +39,7 @@ gem "guard-cucumber", ">= 0.6.1", :group => :development
 gem "bson_ext", ">= 1.4.0"
 gem "mongoid", ">= 2.3.0"
 gem "devise", ">= 1.4.7"
-gem "frontend-helpers"
-gem "rails-footnotes", ">= 3.7", :group => :development
+gem "frontend-helpers", ">= 0.1.3"
+gem "rails-footnotes", ">= 3.7.5", :group => :development
 
 gem 'settingslogic', '~> 2.0'
