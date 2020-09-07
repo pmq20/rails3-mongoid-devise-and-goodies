@@ -35,7 +35,7 @@ gem "guard-bundler", ">= 0.1.3", :group => :development
 gem "guard-rails", ">= 0.0.3", :group => :development
 gem "guard-livereload", ">= 0.3.0", :group => :development
 gem "guard-rspec", ">= 0.4.3", :group => :development
-gem "guard-cucumber", ">= 0.6.1", :group => :development
+gem "guard-cucumber", ">= 0.7.3", :group => :development
 gem "bson_ext", ">= 1.4.0"
 gem "mongoid", ">= 2.3.0"
 gem "devise", ">= 1.4.7"
